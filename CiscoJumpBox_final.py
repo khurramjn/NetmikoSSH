@@ -2,7 +2,7 @@ from netmiko import ConnectHandler
 import time
 import csv
  
-# yourbox is your Jump Box, in your case it's your Cisco Router 1
+# yourbox is your Jump Box
 # ip is your JumpBox IP
 # username is your JumpBox username
 # Password is your JumpBox password
