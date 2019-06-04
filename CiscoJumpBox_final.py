@@ -1,6 +1,6 @@
-ou can use below script and it will disconnect the session after iterating over the list you have provided.
-
-Assuming your passwords are same for all of the routers. This is just a basic script you can improve per your requirements.
+# You can use below script and it will disconnect the session after iterating over the list you have provided.
+# Assuming your passwords are same for all of the routers. This is just a basic script you can improve per your requirements.
+# Please contact me if you have any questions, khurram.jn@gmail.com
 
 from netmiko import ConnectHandler
 import time
