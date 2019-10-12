@@ -1,5 +1,4 @@
 from netmiko import ConnectHandler
-import csv
 
 ip_list = ['192.1.1.1', '192.1.1.2']
 send_config_commands = ['enable secret secret_here']
