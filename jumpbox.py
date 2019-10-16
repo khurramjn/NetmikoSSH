@@ -14,7 +14,7 @@ yourbox = {
 }
 
 
-def sshFunction():
+def ssh_function():
     device = ConnectHandler(**yourbox)
     print(device.find_prompt())
     device.write_channel("ssh -l admin 192.168.1.167 \n")
@@ -31,4 +31,4 @@ def sshFunction():
 
 
 if __name__ == "__main__":
-    sshFunction()
+    ssh_function()
