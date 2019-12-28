@@ -12,9 +12,9 @@ with open("ipfile.csv") as file_name:
 
 
 def create_vlan():
-    for ipAddr in range(len(iplist)):
+    for ip_addr in range(len(iplist)):
         device = ConnectHandler(
-            ip=iplist[ipAddr],
+            ip=iplist[ip_addr],
             username="admin",
             password="your-password",
             device_type="cisco_ios",
